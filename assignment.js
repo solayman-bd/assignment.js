@@ -1,4 +1,5 @@
 //https://github.com/solayman-bd/assignment.js
+
 function kilometerToMeter(distanceInKilometer){
     if(typeof(distanceInKilometer)!=="number"){
         return "Please input distance as Number";   
@@ -12,7 +13,6 @@ function kilometerToMeter(distanceInKilometer){
         return distanceInKilometer*1000;
     }
 }
-
 
 
 function budgetCalculator(watch,phone,laptop){
@@ -66,7 +66,6 @@ function hotelCost(days){
     }
    
 }
-
 
 
 function megaFriend(friendsName){ 
