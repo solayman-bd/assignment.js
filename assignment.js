@@ -1,4 +1,4 @@
-
+//https://github.com/solayman-bd/assignment.js
 function kilometerToMeter(distanceInKilometer){
     if(typeof(distanceInKilometer)!=="number"){
         return "Please input distance as Number";   
@@ -69,8 +69,7 @@ function hotelCost(days){
 
 
 
-function megaFriend(friendsName){
-      
+function megaFriend(friendsName){ 
     var highestLength=0;
     var highestName;
     for(var i=0;i<friendsName.length;i++){
